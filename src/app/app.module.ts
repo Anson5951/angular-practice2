@@ -11,10 +11,11 @@ import { HomePageComponent } from './menu-bar/home-page/home-page.component';
 import { MemberListComponent } from './menu-bar/member-list/member-list.component';
 import { MemberDetailComponent } from './menu-bar/member-list/member-detail/member-detail.component';
 import { NewsListComponent } from './menu-bar/home-page/news-list/news-list.component';
+import { NewsDetailComponent } from './news/news-detail/news-detail.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, MenuBarComponent, LoginPageComponent, TestComponent, HomePageComponent, MemberListComponent, MemberDetailComponent, NewsListComponent ],
+  declarations: [ AppComponent, HelloComponent, MenuBarComponent, LoginPageComponent, TestComponent, HomePageComponent, MemberListComponent, MemberDetailComponent, NewsListComponent, NewsDetailComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
